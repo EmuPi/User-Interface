@@ -2,4 +2,4 @@ CC=g++
 CCLIBS=-lSDL -lSDL_ttf
 
 all:
-	$(CC) src/*.cpp -o emupigui $(CCLIBS)
+	$(CC) src/*.cpp -std=c++11 -o emupigui $(CCLIBS)
